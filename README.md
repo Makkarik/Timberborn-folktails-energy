@@ -27,8 +27,11 @@ You need to find the point on the chart that corresponds to your parameters. The
 
 ### Example
 You have a colony that consumes $2000 \text{ hp}$. You have 10 large windmills with maximum power generation of $400 \text{ hp}$ units each. Thus, the generation factor is 
+
 $$f_g = \frac{10\cdot400}{2000} = 2.$$ 
-The batteries have a capacity of $96000 \text{ hph}$, so the battery capacity factor is 
+
+The batteries have a capacity of $96000 \text{ hph}$, so the battery capacity factor is
+ 
 $$f_b = \frac{96000}{2000 \cdot 24} = 2 \text{ days}.$$
 
 The lower chart shows that the uptime rate for $f_g = 2$ and $f_b = 2$ with large windmills is greater than $90\%$. Thus, you can be sure that the chance of the system failure is less than $10%$.
